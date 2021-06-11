@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>DOM Project</title>
+  </head>
+  <body>
+    <head class="main-header">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Java Script</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-store" href="store.html">Store</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+      <br />
+      <div class="container">
+        <div class="jumbotron">
+          <img class="masthead-avatar mb-5" src="res/avataaars.svg" alt="..." />
+          <h1>DOM Project</h1>
+          <p>
+            For this checkpoint, you’ll have to recreate a shopping cart. In
+            this scenario, it’s a cart in which items have already been
+            preselected and from this particular screen, the user is able to
+            apply the following instructions.
+          </p>
+        </div>
+
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>JUL 16</td>
+              <td>DETROIT, MI</td>
+              <td>DTE ENERGY MUSIC THEATRE</td>
+              <td>
+                <button
+                  type="button"
+                  class="tour-item tour-btn btn btn-primary"
+                >
+                  BUY TICKETS
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>JUL 19</td>
+              <td>TORONTO, ON</td>
+              <td>BUDWEISER STAGE</td>
+              <td>
+                <button
+                  type="button"
+                  class="tour-item tour-btn btn btn-primary"
+                >
+                  BUY TICKETS
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>JUL 22</td>
+              <td>BRISTOW, VA</td>
+              <td>JIGGY LUBE LIVE</td>
+              <td>
+                <button
+                  type="button"
+                  class="tour-item tour-btn btn btn-primary"
+                >
+                  BUY TICKETS
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>JUL 29</td>
+              <td>PHOENIX, AZ</td>
+              <td>AK-CHIN PAVILION</td>
+              <td>
+                <button
+                  type="button"
+                  class="tour-item tour-btn btn btn-primary"
+                >
+                  BUY TICKETS
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>AUG 2</td>
+              <td>LAS VEGAS, NV</td>
+              <td>T-MOBILE ARENA</td>
+              <td>
+                <button
+                  type="button"
+                  class="tour-item tour-btn btn btn-primary"
+                >
+                  BUY TICKETS
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>AUG 7</td>
+              <td>CONCORD, CA</td>
+              <td>CONCORD PAVILION</td>
+              <td>
+                <button
+                  type="button"
+                  class="tour-item tour-btn btn btn-primary"
+                >
+                  BUY TICKETS
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </head>
+
+    <!-- Footer-->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <!-- Footer Location-->
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Location</h4>
+            <p class="lead mb-0">
+              4054 Sousse, Sahloul
+              <br />
+              GOMYCODE, TUNISIA
+            </p>
+          </div>
+          <!-- Footer Social Icons-->
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Around the Web</h4>
+            <a class="btn btn-outline-light btn-social mx-1" href="#!"
+              ><i class="fab fa-fw fa-facebook-f"></i
+            ></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="#!"
+              ><i class="fab fa-fw fa-twitter"></i
+            ></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="#!"
+              ><i class="fab fa-fw fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="#!"
+              ><i class="fab fa-fw fa-dribbble"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright Section-->
+      <div class="copyright py-4 text-center text-white">
+        <div class="container">
+          <small>Copyright &copy; Your Website 2021</small>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

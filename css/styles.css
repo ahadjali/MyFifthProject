@@ -1,0 +1,41 @@
+
+.jumbotron {
+    background-color: #1abc9c;
+}
+.jumbotron h1 {
+    color:white;
+}
+.masthead-avatar {
+  width: 7rem;
+}
+.footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #e2e2e2;
+  color: rgb(12, 12, 12);
+}
+.copyright {
+  background-color: #1a252f;
+}
+.shop-item{
+  flex-wrap: wrap;
+  display: inline-block;
+  margin: 3%;
+}
+.shop-item-title {
+  display: block;
+  text-align: left;
+}
+.shop-item-image {
+  height: 18rem;
+}
+
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*.cart-row {
+  display: flex;
+}*/
